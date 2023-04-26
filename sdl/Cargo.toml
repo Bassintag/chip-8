@@ -1,0 +1,9 @@
+[package]
+name = "sdl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chip8 = { path = "../chip8"}
+sdl2 = "0.35.2"
+clap = "3.2.17"
